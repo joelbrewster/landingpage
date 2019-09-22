@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Joel Brewster</title>
+        <meta name="description" content="Landing page with project links" />
+        <meta name="keywords" content="joel brewster wordpress javascript gatsby" />
+        <meta name="author" content="Joel Brewster" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/base.css" />
+    </head>
+    <body>
+        <main>
+            <div class="top">
+                <div class="left">
+                    <span class="wave">👋</span>
+                    <span>Hi, I'm Joel.</span>
+                </div>
+                <div class="right">
+                    <a class="social-link" target="_blank" rel="noopener noreferrer"  href="https://www.github.com/joelbrewster">Github</a>
+                    <a class="social-link" target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/in/joelbrewster">Linkedin</a>
+                    <a class="social-link" target="_blank" href="/joelbrewster_resume">Résumé</a>
+                </div>
+            </div>
+            <div class="content">
+                <svg class="distort" width="500" height="350" viewBox="0 0 500 350">
+                    <filter id="distortionFilter">
+                        <feTurbulence type="fractalNoise" baseFrequency="0.01 0.003" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+                        <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"/>
+                    </filter>
+                    <g filter="url(#distortionFilter)">
+                        <image class="distort__img" x="50" y="50" xlink:href="img/1.jpg" height="350" width="500"/>
+                        <image class="distort__img" x="50" y="50" xlink:href="img/2.jpg" height="350" width="500"/>
+                        <image class="distort__img" x="50" y="50" xlink:href="img/3.jpg" height="350" width="500"/>
+                        <image class="distort__img" x="50" y="50" xlink:href="img/4.jpg" height="350" width="500"/>
+                        <image class="distort__img" x="50" y="50" xlink:href="img/6.jpg" height="350" width="500"/>
+                        <image class="distort__img" x="50" y="50" xlink:href="img/7.jpg" height="350" width="500"/>
+                        <image class="distort__img" x="50" y="50" xlink:href="img/8.jpg" height="350" width="500"/>
+                    </g>
+                </svg>
+                <nav class="menu">
+                    <h1>Projects</h1>
+                    <a href="https://www.mid.org.au" target="_blank" rel="noopener noreferrer" class="menu__link">MID</a>
+                    <a href="https://www.cmcrocks.com" target="_blank" rel="noopener noreferrer" class="menu__link">CMC Rocks</a>
+                    <a href="https://www.nowsound.online" target="_blank" rel="noopener noreferrer" class="menu__link">Now Sound</a>
+                    <a href="https://www.mwf.com.au" target="_blank" rel="noopener noreferrer" class="menu__link">Melbourne Writers Festival</a>
+                    <a href="https://www.rothelowman.com.au" target="_blank" rel="noopener noreferrer" class="menu__link">Rothe Lowan</a>
+                    <a href="https://www.djjohnhoward.com" target="_blank" rel="noopener noreferrer" class="menu__link">DJ John Howard</a>
+                    <a href="http://bingefest.sydneyoperahouse.com" target="_blank" rel="noopener noreferrer" class="menu__link">Bingefest Festival</a>
+                </nav>
+            </div>
+        </main>
+        <script src="js/charming.min.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

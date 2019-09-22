@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-09-21 Sat 15:13 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Joel Brewster</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/resume.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Joel Brewster</h1>
+<ul class="org-ul">
+<li>Looking for new opportunities in 2019.</li>
+<li>References will gladly be given on request.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><b>Phone</b>: +61 450 512 930</li>
+<li><b>Email</b>: hi@joelbrewster.com</li>
+<li><b>Homepage</b>: joelbrewster.com</li>
+<li><b>Github</b>: github.com/joelbrewster</li>
+<li><b>LinkedIn</b>: linkedin.com/in/joelbrewster</li>
+</ul>
+
+<div id="outline-container-org8808ba9" class="outline-2">
+<h2 id="org8808ba9">SKILLS</h2>
+<div class="outline-text-2" id="text-org8808ba9">
+<p>
+HTML, CSS (SASS, SCSS), JavaScript, jQuery, PHP, Wordpress, Gatsby, ACF, Toolset, Composer, Yarn, Gulp, Git, Bourbon, Neat, Blade, Moustache, Twig, CraftCMS, React, Ruby, Rails, Vim, Emacs(evil), Mac OS, Linux.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9c540bb" class="outline-2">
+<h2 id="org9c540bb">ABOUT</h2>
+<div class="outline-text-2" id="text-org9c540bb">
+<p>
+I am a passionate and curious Melbourne based web developer with a penchant for front-end development. I enjoy creating engaging experiences and coding pixel perfect interfaces. I love solving problems, coding, studying, plain text, music and chocolate.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org75f9d1b" class="outline-2">
+<h2 id="org75f9d1b">PROJECTS</h2>
+<div class="outline-text-2" id="text-org75f9d1b">
+</div>
+<div id="outline-container-org6898fd6" class="outline-3">
+<h3 id="org6898fd6"><b>Melbourne Innovation Districts</b> - <a href="https://www.mid.org.au">https://www.mid.org.au</a></h3>
+</div>
+<div id="outline-container-org0dd6082" class="outline-3">
+<h3 id="org0dd6082"><b>CMC Rocks</b> - <a href="https://www.cmcrocks.com">https://www.cmcrocks.com</a></h3>
+</div>
+<div id="outline-container-orgb67bc13" class="outline-3">
+<h3 id="orgb67bc13"><b>Now Sound</b> - <a href="https://www.nowsound.online">https://www.nowsound.online</a></h3>
+</div>
+<div id="outline-container-orgc89a710" class="outline-3">
+<h3 id="orgc89a710"><b>Melbourne Writers Festival</b> - <a href="https://www.mwf.com.au">https://www.mwf.com.au</a></h3>
+</div>
+<div id="outline-container-org2f11290" class="outline-3">
+<h3 id="org2f11290"><b>Invictus Games</b> - <a href="https://www.invictusgames2018.com">https://www.invictusgames2018.com</a></h3>
+</div>
+<div id="outline-container-orgdb879c8" class="outline-3">
+<h3 id="orgdb879c8"><b>JBL Weekeend warrior</b> - <a href="https://www.jblwwc.com.au">https://www.jblwwc.com.au</a></h3>
+</div>
+<div id="outline-container-org34a07df" class="outline-3">
+<h3 id="org34a07df"><b>DJ John Howard</b> - <a href="https://www.djjohnhoward.com">https://www.djjohnhoward.com</a></h3>
+</div>
+<div id="outline-container-org1574b76" class="outline-3">
+<h3 id="org1574b76"><b>Rothe Lowman</b> - <a href="https://www.rothelowman.com.au">https://www.rothelowman.com.au</a></h3>
+</div>
+<div id="outline-container-org1e98cca" class="outline-3">
+<h3 id="org1e98cca"><b>iConnect Financial</b> - <a href="https://www.iconnectfinancial.com.au">https://www.iconnectfinancial.com.au</a></h3>
+</div>
+<div id="outline-container-org357445a" class="outline-3">
+<h3 id="org357445a"><b>Bingefest Festival</b> - <a href="http://bingefest.sydneyoperahouse.com">http://bingefest.sydneyoperahouse.com</a></h3>
+</div>
+<div id="outline-container-org3c0da26" class="outline-3">
+<h3 id="org3c0da26"><b>The 5th Watches</b> - <a href="https://www.the5th.co">https://www.the5th.co</a></h3>
+</div>
+<div id="outline-container-org4e5db4a" class="outline-3">
+<h3 id="org4e5db4a"><b>Zero-player App</b> - <a href="https://tinyurl.com/zero-player-download">https://tinyurl.com/zero-player-download</a></h3>
+</div>
+</div>
+
+<div id="outline-container-org378ceaa" class="outline-2">
+<h2 id="org378ceaa">EMPLOYMENT HISTORY</h2>
+<div class="outline-text-2" id="text-org378ceaa">
+</div>
+<div id="outline-container-org6336c1d" class="outline-3">
+<h3 id="org6336c1d"><b>Bone Digital</b></h3>
+<div class="outline-text-3" id="text-org6336c1d">
+</div>
+<div id="outline-container-orgf7bbb3f" class="outline-4">
+<h4 id="orgf7bbb3f">Feb 2019 - Current | Melbourne, Victoria, Australia</h4>
+</div>
+</div>
+
+<div id="outline-container-org4179eda" class="outline-3">
+<h3 id="org4179eda"><b>Bolster</b></h3>
+<div class="outline-text-3" id="text-org4179eda">
+</div>
+<div id="outline-container-org1cb6e81" class="outline-4">
+<h4 id="org1cb6e81">Jun 2018 - Nov 2018 | Melbourne, Victoria, Australia</h4>
+</div>
+</div>
+
+<div id="outline-container-org7ad3c0f" class="outline-3">
+<h3 id="org7ad3c0f"><b>Pugh Morgan</b></h3>
+<div class="outline-text-3" id="text-org7ad3c0f">
+</div>
+<div id="outline-container-org1f446c4" class="outline-4">
+<h4 id="org1f446c4">Jan 2018 - Jun 2018 | Melbourne, Victoria, Australia</h4>
+</div>
+</div>
+
+<div id="outline-container-orga4972f6" class="outline-3">
+<h3 id="orga4972f6"><b>Your Creative</b></h3>
+<div class="outline-text-3" id="text-orga4972f6">
+</div>
+<div id="outline-container-org8640c13" class="outline-4">
+<h4 id="org8640c13">Jul 2017 - Dec 2017 | Melbourne, Victoria, Australia</h4>
+</div>
+</div>
+
+<div id="outline-container-org814f733" class="outline-3">
+<h3 id="org814f733"><b>Bourne Digital</b></h3>
+<div class="outline-text-3" id="text-org814f733">
+</div>
+<div id="outline-container-org7039e52" class="outline-4">
+<h4 id="org7039e52">Mar 2017 - Jul 2017 | Melbourne, Victoria, Australia</h4>
+</div>
+</div>
+
+<div id="outline-container-orgcb02169" class="outline-3">
+<h3 id="orgcb02169"><b>Love and Money Agency</b></h3>
+<div class="outline-text-3" id="text-orgcb02169">
+</div>
+<div id="outline-container-orgd0c7594" class="outline-4">
+<h4 id="orgd0c7594">Sep 2016 - Jan 2017 | Melbourne, Victoria, Australia</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc5147d3" class="outline-2">
+<h2 id="orgc5147d3">EDUCATION</h2>
+<div class="outline-text-2" id="text-orgc5147d3">
+</div>
+<div id="outline-container-org211d422" class="outline-3">
+<h3 id="org211d422"><b>General Assembly</b></h3>
+<div class="outline-text-3" id="text-org211d422">
+<p>
+Web Development Immersive <i>2016 (April - July)</i>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0392f1c" class="outline-3">
+<h3 id="org0392f1c"><b>서강대학교 Sogang University (Seoul)</b></h3>
+<div class="outline-text-3" id="text-org0392f1c">
+<p>
+Korean Language Course <i>2010 - 2011</i>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb8a4798" class="outline-3">
+<h3 id="orgb8a4798"><b>Queensland Conservatorium of Music, Griffith University</b></h3>
+<div class="outline-text-3" id="text-orgb8a4798">
+<p>
+Sound Technology (2 / 3 complete) <i>2006 - 2007</i>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb06c54b" class="outline-3">
+<h3 id="orgb06c54b"><b>Central Queensland Conservatorium of Music</b></h3>
+<div class="outline-text-3" id="text-orgb06c54b">
+<p>
+B.A of Contemporary Music <i>2003 - 2005</i>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1678537" class="outline-2">
+<h2 id="org1678537">LANGUAGES</h2>
+<div class="outline-text-2" id="text-org1678537">
+<p>
+English, Korean
+</p>
+</div>
+</div>
+
+<div id="outline-container-org517be05" class="outline-2">
+<h2 id="org517be05">EMPLOYMENT AND EDUCATION EXPERIENCES</h2>
+<div class="outline-text-2" id="text-org517be05">
+</div>
+<div id="outline-container-orgbdfa8c4" class="outline-3">
+<h3 id="orgbdfa8c4"><b>Web Development Immersive student at General Assembly</b></h3>
+<div class="outline-text-3" id="text-orgbdfa8c4">
+<p>
+<i>Apr 2016 - Jul 2016</i> | Melbourne, Victoria, Australia
+</p>
+
+<p>
+I've always liked making things, especially with computers. After a few years of spending all my available free time studying and trying to learn by myself, I decided to relocate back to Australia and try to change careers and work in an industry I'm really passionate about. I've loved the pace of GA and can't wait to create new and interesting things.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org50d6733" class="outline-3">
+<h3 id="org50d6733"><b>School Owner, Instructor at 영어집</b></h3>
+<div class="outline-text-3" id="text-org50d6733">
+<p>
+<i>Jan 2014 - Feb 2016</i> | Jeju-Si, Jeju Island, South Korea
+</p>
+
+<p>
+My wife and I opened a small language school to take on students that expressed an interest in private lessons with her or myself. I really enjoyed finding ways to engage students, from things like word puzzle games, flashcard games, worksheet games and programming iPad games like "Hangman", "guess the number" and "find the missing letters" style games in python.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec0ffb9" class="outline-3">
+<h3 id="orgec0ffb9"><b>Owner, Part Time Waiter at Winnie's Brunch Café</b></h3>
+<div class="outline-text-3" id="text-orgec0ffb9">
+<p>
+<i>Mar 2012 - Aug 2013</i> | Jeju-Si, Jeju Island, South Korea
+</p>
+
+<p>
+My wife has always had a dream to open a brunch cafe. I managed online presence and getting local people aware of the cafe by being part of local groups with things like sponsorships, Facebook groups and local cafe blogs. I was working at a language school and working at the cafe in my spare time on serving and marketing.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org48cb2df" class="outline-3">
+<h3 id="org48cb2df"><b>English Instructor at 영어마루</b></h3>
+<div class="outline-text-3" id="text-org48cb2df">
+<p>
+<i>Mar 2012 - Mar 2013</i> | Jeju, Jeju Island, South Korea
+</p>
+
+<p>
+I taught primary, middle and younger high school students. I learnt when teachers regularly check for understanding in the classroom, students become increasingly aware of monitoring their own understanding and skills. This can serve as a model of good study skills that students can use by themselves and not require stimulus or other motivations.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org97d95f8" class="outline-3">
+<h3 id="org97d95f8"><b>Language Instructor at International Language School Jeju</b></h3>
+<div class="outline-text-3" id="text-org97d95f8">
+<p>
+<i>Feb 2011 - Feb 2012</i> | Jeju-si, Jeju Island, South Korea
+</p>
+
+<p>
+I taught primary/ middle school age children and a gifted class of 4 boys who were 6/7 years old. I mostly worked out of company specific materials and made things as fun as possible. I tried to create more engaging ways to make reading and writing fun. I used a lot of music to get students interested in foreign cultures and language. I learnt how to model for students what they are expected to do or produce, especially for new skills or activities by sharing my thought processes.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org675912b" class="outline-3">
+<h3 id="org675912b"><b>English Instructor at Learn To Give Project</b></h3>
+<div class="outline-text-3" id="text-org675912b">
+<p>
+<i>Feb 2009 - Jul 2009</i> | Nakhon Ratchasima Thailand
+</p>
+
+<p>
+I travelled to Thailand with my partner to teach in rural Ubon Ratchathani (Nakhon Ratchasima area) for around 6 months. We stayed with a host family and spent our free time at the school or with families in the area. Our goal was to expose locals to foreigners and to relax when studying. I learnt how to interact with people of different cultures, not having a common language to communicate with and differences in work cultures.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfdb51ff" class="outline-3">
+<h3 id="orgfdb51ff"><b>Language Instructor at Sogang University Language Program</b></h3>
+<div class="outline-text-3" id="text-orgfdb51ff">
+<p>
+<i>Feb 2008 - Feb 2009</i> | Seoul, South Korea
+</p>
+
+<p>
+After working at an international college I met so many lovely people that sparked my interest in travel. In Seoul, I was part of a group that taught ESL to primary and middle grade students. I learnt to use visuals, sketches, gestures, intonation, and other nonverbal cues to make both language and content accessible to others. I learnt to be patient, listen and to try to embrace differences. I learnt a lot about myself by being alone in a different country and trying to lead by example.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf3e8db5" class="outline-3">
+<h3 id="orgf3e8db5"><b>Instructor at Pacific Gateway International College</b></h3>
+<div class="outline-text-3" id="text-orgf3e8db5">
+<p>
+<i>Jan 2007 - Jan 2008</i> | Brisbane, Queensland, Australia
+</p>
+
+<p>
+I was in charge of creating activities for international students, creating materials and topics for group discussions. I supervised tests and reviewed test materials. I was part of a travel group that helped international students go on trips and meet local people on weekends. I learnt a lot about different cultures but mostly it spurred a wanderlust to break away from what I had and to travel and see more of the world.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org30a76a9" class="outline-3">
+<h3 id="org30a76a9"><b>Music Instructor at Forte School Of Music</b></h3>
+<div class="outline-text-3" id="text-org30a76a9">
+<p>
+<i>Nov 2006 - Sep 2007</i> | Brisbane, Queensland, Australia
+</p>
+
+<p>
+I was in charge of developing children's scale theory/ warm up and review content, developing interest in not so popular music trends with adolescent students and working on various techniques with higher level guitarists. I was exposed to a lot of music that I wouldn't normally listen to or even try to learn. I learnt how to make guitar, jamming, performing and composition less of an enigma and something anyone can enjoy and really grow with.
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
