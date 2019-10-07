@@ -17,7 +17,7 @@
 + *LinkedIn*: linkedin.com/in/joelbrewster
 
 ** SKILLS
-   HTML, CSS (SASS, SCSS), JavaScript, jQuery, PHP, Wordpress, Gatsby, ACF, Toolset, Composer, Yarn, Gulp, Git, Bourbon, Neat, Blade, Moustache, Twig, CraftCMS, React, Ruby, Rails, Vim, Emacs(evil), Mac OS, Linux.
+   HTML, CSS (SASS, SCSS), JavaScript, jQuery, PHP, Wordpress, Gatsby, ACF, Toolset, Composer, Yarn, Gulp, Git, Bourbon, Neat, Blade, Moustache, Twig, CraftCMS, React, WHM, cPanel, GA, GTM, Mac OS, Linux, Sketch, XD, Photoshop.
 
 ** ABOUT
    I am a passionate and curious Melbourne based developer with a penchant for front-end development. I enjoy creating engaging experiences and coding pixel perfect interfaces. I love solving problems, coding, studying, plain text, music and chocolate.
@@ -73,18 +73,18 @@
 
 ** EMPLOYMENT AND EDUCATION EXPERIENCES
 *** *Bone Digital*
-    /Feb 2019 - Current/ | Melbourne, Victoria, Australia
+    /Feb 2019 - Oct 2019/ | Melbourne, Victoria, Australia
 
-    At Bone Digital, I set up custom site builds; their structure, deploy, link the CMS backend and front end styling. I clean up existing builds, converting older Wordpress sites to use a modern compile/deploy setup, fix bugs and make changes to logic or client feedback changes and updates on frontend and back. Recently, I've set up a Gatsby frontend build with a Wordpress backend.
+    At Bone Digital, I set up custom site builds; their structure, deploy, link the CMS backend and front end styling. I cleaned up existing builds, converting older Wordpress sites to use a modern compile/deploy setup, fixed bugs and made changes to logic or client feedback changes and updates on frontend and back. Recently, I've set up a Gatsby frontend build with a Wordpress backend /(many years worth of blog/post data)/ using the WP REST API.
 
-    /Gatsby, Wordpress, SASS (BEM), Javascript, jQuery, Swup, ACF, Composer, Yarn, Gulp, Blade, Twig, Git./
+    /Gatsby, Wordpress, SASS (BEM), Javascript, jQuery, Swup, ACF, Composer, Yarn, Gulp, Blade, Twig, Git, GA, GTM./
 
 *** *Bolster*
     /Jun 2018 - Nov 2018/ | Melbourne, Victoria, Australia
 
     At Bolster, I worked on small to medium custom Wordpress builds, landing pages and supported senior developers when needed so they could work on larger builds. I worked on music festival sites and built artist pages and a larger site from start to finish using their Trellis setup. Each site was highly custom, with each module and page having the ability to be altered; from main colors to element alignment and padding options from the backend all reflected on the frontend.
 
-    /Wordpress, SASS (BEM), Javascript, ACF, Composer, Yarn, Gulp, Blade, Twig, Git./
+    /Wordpress, SASS (BEM), Javascript, ACF, Composer, Yarn, Gulp, Blade, Twig, Git, GA, GTM./
 
 *** *Pugh Morgan*
     /Jan 2018 - Jun 2018/ | Melbourne, Victoria, Australia
@@ -105,14 +105,14 @@
 
     I was hired at Bourne Digital as a contractor to complete some work on their site. After the first week, I was hired full time to complete various other smaller websites, fix browser compatibility issues on existing work and more recently look into building a CMS remodel of their existing site. Later, I worked with SAP to create business enterprise software. SAP is enterprise resource planning software (Javscript) that deals with systems, applications and products in data processing.
 
-    /Javascript, Wordpress, CraftCMS, SCSS, jQuery, ACF, Gulp, Git./
+    /Javascript, Wordpress, CraftCMS, SCSS, jQuery, ACF, Gulp, Git, SAP./
 
 *** *Love and Money*
     /Sep 2016 - Jan 2017/ | Melbourne, Victoria, Australia
 
     Initially, I was hired at Love and Money as a contract worker for one month for a landing page, and then it became monthly from then. At LAM, I worked on smaller sites from start to finish, remodeled existing web pages, created banners, tweaked and optimised code and updated content on Wordpress sites. I really loved working with like minded people and on new and interesting projects with really talented people.
 
-    /Wordpress, SASS, jQuery, ACF, Gulp, Git./
+    /Wordpress, SASS, jQuery, ACF, Gulp, Git, EDM, GA./
 
 *** *Web Development Immersive student at General Assembly*
     /Apr 2016 - Jul 2016/ | Melbourne, Victoria, Australia
