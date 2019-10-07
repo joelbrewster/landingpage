@@ -1,0 +1,160 @@
+#+TITLE: Joel Brewster
+#+STARTUP: inlineimages
+#+LANGUAGE: en
+#+OPTIONS: toc:nil date:nil num:nil author:nil html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/resume.css" />
+# wkhtmltopdf -d 72 -s A4 joelbrewster_resume.html joelbrewster_resume.pdf
+
+
++ Looking for new opportunities in 2019.
++ References will gladly be given on request.
+
+
++ *Phone*: +61 450 512 930
++ *Email*: hi@joelbrewster.com
++ *Homepage*: joelbrewster.com
++ *Github*: github.com/joelbrewster
++ *LinkedIn*: linkedin.com/in/joelbrewster
+
+** SKILLS
+   HTML, CSS (SASS, SCSS), JavaScript, jQuery, PHP, Wordpress, Gatsby, ACF, Toolset, Composer, Yarn, Gulp, Git, Bourbon, Neat, Blade, Moustache, Twig, CraftCMS, React, Ruby, Rails, Vim, Emacs(evil), Mac OS, Linux.
+
+** ABOUT
+   I am a passionate and curious Melbourne based developer with a penchant for front-end development. I enjoy creating engaging experiences and coding pixel perfect interfaces. I love solving problems, coding, studying, plain text, music and chocolate.
+
+** PROJECTS
+*** *Melbourne Innovation Districts* - https://www.mid.org.au
+*** *CMC Rocks* - https://www.cmcrocks.com
+*** *Now Sound* - https://www.nowsound.online
+*** *Melbourne Writers Festival* - https://www.mwf.com.au
+*** *Invictus Games* - https://www.invictusgames2018.com
+*** *JBL Weekeend warrior* - https://www.jblwwc.com.au
+*** *DJ John Howard* - https://www.djjohnhoward.com
+*** *Rothe Lowman* - https://www.rothelowman.com.au
+*** *iConnect Financial* - https://www.iconnectfinancial.com.au
+*** *Bingefest Festival* - http://bingefest.sydneyoperahouse.com
+*** *The 5th Watches* - https://www.the5th.co
+*** *Zero-player App* - https://tinyurl.com/zero-player-download
+
+** EMPLOYMENT HISTORY
+*** *Bone Digital*
+**** Feb 2019 - Oct 2019 | Melbourne, Victoria, Australia
+
+*** *Bolster*
+**** Jun 2018 - Nov 2018 | Melbourne, Victoria, Australia
+
+*** *Pugh Morgan* (Expect Different)
+**** Jan 2018 - Jun 2018 | Melbourne, Victoria, Australia
+
+*** *Your Creative*
+**** Jul 2017 - Dec 2017 | Melbourne, Victoria, Australia
+
+*** *Bourne Digital*
+**** Mar 2017 - Jul 2017 | Melbourne, Victoria, Australia
+
+*** *Love and Money*
+**** Sep 2016 - Jan 2017 | Melbourne, Victoria, Australia
+
+** EDUCATION
+*** *General Assembly*
+    Web Development Immersive /2016 (April - July)/
+
+*** *서강대학교 Sogang University (Seoul)*
+    Korean Language Course /2010 - 2011/
+
+*** *Queensland Conservatorium of Music, Griffith University*
+    Sound Technology (2 / 3 complete) /2006 - 2007/
+
+*** *Central Queensland Conservatorium of Music*
+    B.A of Contemporary Music /2003 - 2005/
+
+** LANGUAGES
+   English, Korean
+
+** EMPLOYMENT AND EDUCATION EXPERIENCES
+*** *Bone Digital*
+    /Feb 2019 - Current/ | Melbourne, Victoria, Australia
+
+    At Bone Digital, I set up custom site builds; their structure, deploy, link the CMS backend and front end styling. I clean up existing builds, converting older Wordpress sites to use a modern compile/deploy setup, fix bugs and make changes to logic or client feedback changes and updates on frontend and back. Recently, I've set up a Gatsby frontend build with a Wordpress backend.
+
+    /Gatsby, Wordpress, SASS (BEM), Javascript, jQuery, Swup, ACF, Composer, Yarn, Gulp, Blade, Twig, Git./
+
+*** *Bolster*
+    /Jun 2018 - Nov 2018/ | Melbourne, Victoria, Australia
+
+    At Bolster, I worked on small to medium custom Wordpress builds, landing pages and supported senior developers when needed so they could work on larger builds. I worked on music festival sites and built artist pages and a larger site from start to finish using their Trellis setup. Each site was highly custom, with each module and page having the ability to be altered; from main colors to element alignment and padding options from the backend all reflected on the frontend.
+
+    /Wordpress, SASS (BEM), Javascript, ACF, Composer, Yarn, Gulp, Blade, Twig, Git./
+
+*** *Pugh Morgan*
+    /Jan 2018 - Jun 2018/ | Melbourne, Victoria, Australia
+
+    Pugh Morgan (defunct) was an integrated brand experience agency, focusing on premium creative and cross-channel execution. I worked across two highly custom Wordpress sites (1 autonomously), and a Drupal and Laravel site. I was across the two Wordpress websites from inception from templating UI elements and partials right up to merging and deploying completed code to staging. I also wrote technical documentation to show clients how to use the custom Wordpress builds.
+
+    /Wordpress, Laravel, Drupal, ACF, Toolset, Composer, Yarn, Gulp, Git, Bourbon, Neat, Moustache, Twig./
+
+*** *Your Creative*
+    /Jul 2017 - Dec 2017/ | Melbourne, Victoria, Australia
+
+    With YC I mostly worked with Wordpress and a Laravel build across various client types. I worked with designers from a projects inception right until completion and signoff. I set up databases, hosts, staging and production servers, coded solo and with another developer, cut up resources with Photoshop and illustrator, optimised images, setup component examples for layouts, and wrote technical documentation on how to use the CMS for non-technical clients.
+
+    /Wordpress, Laravel, ACF, Composer, Yarn, Git./
+
+*** *Bourne Digital*
+    /Mar 2017 - Jul 2017/ | Melbourne, Victoria, Australia
+
+    I was hired at Bourne Digital as a contractor to complete some work on their site. After the first week, I was hired full time to complete various other smaller websites, fix browser compatibility issues on existing work and more recently look into building a CMS remodel of their existing site. Later, I worked with SAP to create business enterprise software. SAP is enterprise resource planning software (Javscript) that deals with systems, applications and products in data processing.
+
+    /Javascript, Wordpress, CraftCMS, SCSS, jQuery, ACF, Gulp, Git./
+
+*** *Love and Money*
+    /Sep 2016 - Jan 2017/ | Melbourne, Victoria, Australia
+
+    Initially, I was hired at Love and Money as a contract worker for one month for a landing page, and then it became monthly from then. At LAM, I worked on smaller sites from start to finish, remodeled existing web pages, created banners, tweaked and optimised code and updated content on Wordpress sites. I really loved working with like minded people and on new and interesting projects with really talented people.
+
+    /Wordpress, SASS, jQuery, ACF, Gulp, Git./
+
+*** *Web Development Immersive student at General Assembly*
+    /Apr 2016 - Jul 2016/ | Melbourne, Victoria, Australia
+
+    I've always liked making things, especially with computers. After a few years of spending all my available free time studying and trying to learn by myself, I decided to relocate back to Australia and try to change careers and work in an industry I'm really passionate about. I've loved the pace of GA and can't wait to create new and interesting things.
+
+*** *School Owner, Instructor at 영어집*
+    /Jan 2014 - Feb 2016/ | Jeju-Si, Jeju Island, South Korea
+
+    My wife and I opened a small language school to take on students that expressed an interest in private lessons with her or myself. I really enjoyed finding ways to engage students, from things like word puzzle games, flashcard games, worksheet games and programming iPad games like "Hangman", "guess the number" and "find the missing letters" style games in python.
+
+*** *Owner, Part Time Waiter at Winnie's Brunch Café*
+    /Mar 2012 - Aug 2013/ | Jeju-Si, Jeju Island, South Korea
+
+    My wife has always had a dream to open a brunch cafe. I managed online presence and getting local people aware of the cafe by being part of local groups with things like sponsorships, Facebook groups and local cafe blogs. I was working at a language school and working at the cafe in my spare time on serving and marketing.
+
+*** *English Instructor at 영어마루*
+    /Mar 2012 - Mar 2013/ | Jeju, Jeju Island, South Korea
+
+    I taught primary, middle and younger high school students. I learnt when teachers regularly check for understanding in the classroom, students become increasingly aware of monitoring their own understanding and skills. This can serve as a model of good study skills that students can use by themselves and not require stimulus or other motivations.
+
+*** *Language Instructor at International Language School Jeju*
+    /Feb 2011 - Feb 2012/ | Jeju-si, Jeju Island, South Korea
+
+    I taught primary/ middle school age children and a gifted class of 4 boys who were 6/7 years old. I mostly worked out of company specific materials and made things as fun as possible. I tried to create more engaging ways to make reading and writing fun. I used a lot of music to get students interested in foreign cultures and language. I learnt how to model for students what they are expected to do or produce, especially for new skills or activities by sharing my thought processes.
+
+*** *English Instructor at Learn To Give Project*
+    /Feb 2009 - Jul 2009/ | Nakhon Ratchasima Thailand
+
+    I travelled to Thailand with my partner to teach in rural Ubon Ratchathani (Nakhon Ratchasima area) for around 6 months. We stayed with a host family and spent our free time at the school or with families in the area. Our goal was to expose locals to foreigners and to relax when studying. I learnt how to interact with people of different cultures, not having a common language to communicate with and differences in work cultures.
+
+*** *Language Instructor at Sogang University Language Program*
+    /Feb 2008 - Feb 2009/ | Seoul, South Korea
+
+    After working at an international college I met so many lovely people that sparked my interest in travel. In Seoul, I was part of a group that taught ESL to primary and middle grade students. I learnt to use visuals, sketches, gestures, intonation, and other nonverbal cues to make both language and content accessible to others. I learnt to be patient, listen and to try to embrace differences. I learnt a lot about myself by being alone in a different country and trying to lead by example.
+
+*** *Instructor at Pacific Gateway International College*
+    /Jan 2007 - Jan 2008/ | Brisbane, Queensland, Australia
+
+    I was in charge of creating activities for international students, creating materials and topics for group discussions. I supervised tests and reviewed test materials. I was part of a travel group that helped international students go on trips and meet local people on weekends. I learnt a lot about different cultures but mostly it spurred a wanderlust to break away from what I had and to travel and see more of the world.
+
+*** *Music Instructor at Forte School Of Music*
+    /Nov 2006 - Sep 2007/ | Brisbane, Queensland, Australia
+
+    I was in charge of developing children's scale theory/ warm up and review content, developing interest in not so popular music trends with adolescent students and working on various techniques with higher level guitarists. I was exposed to a lot of music that I wouldn't normally listen to or even try to learn. I learnt how to make guitar, jamming, performing and composition less of an enigma and something anyone can enjoy and really grow with.
