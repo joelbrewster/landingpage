@@ -75,7 +75,7 @@
 *** *Bone Digital*
     /Feb 2019 - Oct 2019/ | Melbourne, Victoria, Australia
 
-    At Bone Digital, I set up custom site builds; their structure, deploy, link the CMS backend and front end styling. I cleaned up existing builds, converting older Wordpress sites to use a modern compile/deploy setup, fixed bugs and made changes to logic or client feedback changes and updates on frontend and back. Recently, I've set up a Gatsby frontend build with a Wordpress backend /(many years worth of blog/post data)/ using the WP REST API.
+    At Bone Digital I was across the full stack. I set up custom site builds, structure and deploy. I linked up the CMS backend and front end styling. I cleaned up existing builds, converting older Wordpress sites to use a modern compile/deploy setup, fixed bugs and made changes to logic or client feedback changes and updates on frontend and back. Recently, I've set up a Gatsby frontend build with a Wordpress backend /(many years worth of blog/post data)/ using the WP REST API.
 
     /Gatsby, Wordpress, SASS (BEM), Javascript, jQuery, Swup, ACF, Composer, Yarn, Gulp, Blade, Twig, Git, GA, GTM./
 
