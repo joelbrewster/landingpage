@@ -109,7 +109,7 @@ span.wave {
 
 @media screen and (min-width: 55em) {
     body {
-    	overflow: hidden;
+        overflow: hidden;
     }
 
     main {
@@ -135,5 +135,21 @@ span.wave {
         justify-content: space-between;
         position: absolute;
         width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #e4e4e4;
+    }
+    p, span {
+        color: #e4e4e4;
+    }
+    a {
+        color: #6BA4F8;
+    }
+    img {
+        filter: grayscale(30%);
     }
 }
